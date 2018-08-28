@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Parser",
+	"description": "This is a repository of parser APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/parser.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://parser.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "ParallelDots",
+			"x-api-slug": "paralleldots",
+			"description": "ParallelDots is one of the best applied AI research groups in the world. We work with enterprises globally to tackle challenging business problems and create the winners of tomorrow. We also provide AI consulting services to explore the what, why, how and who about deploying AI in businesses. Try-out our cutting edge text analysis APIs and join the community of 1,000+ global users. Contact us at contact@paralleldots.com and tell us about the challenging business problems that you are facing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paralleldots-logo.png",
+			"humanURL": "https://www.paralleldots.com/",
+			"baseURL": "https://apis.paralleldots.com//v3",
+			"tags": "Parser",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parser/master/_listings/paralleldots/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Parser",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parser/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Parser",
+	"include": [
+		{
+			"name": "ParallelDots",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parser/master/_listings/paralleldots/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/parser/master/_listings/gig--crowd/apis.yaml"
+		}
+	]
+}

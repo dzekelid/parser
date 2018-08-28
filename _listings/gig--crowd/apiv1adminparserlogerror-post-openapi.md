@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: GIG & CROWD
-x-complete: 1
+x-complete: 0
 info:
-  title: GIG & Crowd
+  title: GIGANDCROWD Post Admin Parser Log Error
   version: 1.0.0
+  description: Post admin parser log error.
 host: gigandcrowd.com
 basePath: /
 schemes:
@@ -103,3 +105,17 @@ paths:
       - Parser
       - Log
       - Error
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
